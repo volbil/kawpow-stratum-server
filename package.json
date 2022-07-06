@@ -35,7 +35,7 @@
   "dependencies": {
     "base58-native": "^0.1.4",
     "big-integer": "^1.6.48",
-    "bitcoinjs-lib": "^5.2.0",
+    "bitcoinjs-lib": "git+https://github.com/volbil/bitcoinjs-lib.git",
     "merkle-bitcoin": "^1.0.2",
     "promise": "^8.1.0"
   },
@@ -44,7 +44,7 @@
   "engines": {
     "node": ">=11.15.0"
   },
-  "homepage": "https://github.com/mardock2009/Ravencoin-stratum-server",
+  "homepage": "https://github.com/volbil/kawpow-stratum-server",
   "keywords": [
     "stratum",
     "mining",
@@ -58,7 +58,7 @@
   "name": "stratum-pool",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mardock2009/Ravencoin-stratum-server.git"
+    "url": "git+https://github.com/volbil/kawpow-stratum-server.git"
   },
   "version": "1.0.1"
 }
